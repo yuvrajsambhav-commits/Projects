@@ -1,0 +1,7 @@
+{
+  "name": "ridemate-api",
+  "private": true,
+  "scripts": { "dev": "tsx watch src/app.ts", "start": "tsx src/app.ts", "test": "vitest run", "prisma:generate": "prisma generate", "prisma:seed": "tsx prisma/seed.ts" },
+  "dependencies": { "@prisma/client": "latest", "bcryptjs": "latest", "cors": "latest", "dotenv": "latest", "express": "latest", "express-rate-limit": "latest", "helmet": "latest", "jsonwebtoken": "latest", "zod": "latest" },
+  "devDependencies": { "prisma": "latest", "tsx": "latest", "typescript": "latest", "vitest": "latest", "@types/express": "latest", "@types/jsonwebtoken": "latest", "@types/node": "latest" }
+}
